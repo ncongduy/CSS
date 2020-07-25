@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>My own project</title>
+</head>
+
+<body>
+    <h1>HTML Forms Reference</h1>
+    <table>
+        <tr>
+            <th>Tag</th>
+            <th>Attributes</th>
+            <th>Sample Code</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td rowspan="2">form</td>
+            <td>action</td>
+            <td rowspan="2"><code>&lt;form action="/example.html" method="POST"&gt;<br>
+                    &lt;/form&gt;</code></td>
+            <td>action attribute determines where the form’s information goes.</td>
+        </tr>
+        <tr>
+            <td>method</td>
+            <td>method attribute determines how the information is sent and processed.</td>
+        </tr>
+        <tr>
+            <td rowspan="8">input</td>
+            <td>type="text"</td>
+            <td><code>&lt;form action="/example.html" method="POST"&gt;<br>
+                    &lt;input type="text" name="first-text-field"&gt;<br>
+                    &lt;/form&gt;</code></td>
+            <td>Setting type to "text" creates a single row field for text input.</td>
+        </tr>
+        <tr>
+            <td>type="password"</td>
+            <td><code>&lt;form&gt;<br>
+                    &lt;label for="user-password"&gt;Password: &lt;/label&gt;<br>
+                    &lt;input type="password" id="user-password" name="user-password"&gt;<br>
+                    &lt;/form&gt;</code></td>
+            <td>Setting type to "password" creates a single row field that censors text input.</td>
+        </tr>
+        <tr>
+            <td>type="number"</td>
+            <td><code>
+                    &lt;form&gt;<br>
+                    &lt;label for="years"&gt; Years of experience: &lt;/label&gt;<br>
+                    &lt;input id="years" name="years" type="number" step="1"&gt;<br>
+                    &lt;/form&gt;
+                </code></td>
+            <td>Setting type to "number" creates a single row field for number input.
+            </td>
+        </tr>
+        <tr>
+            <td>type="range"</td>
+            <td><code>
+                    &lt;form&gt;<br>
+                    &lt;label for="volume"&gt; Volume Control&lt;/label&gt;<br>
+                    &lt;input id="volume" name="volume" type="range" min="0" max="100" step="1"&gt;<br>
+                    &lt;/form&gt;
+                </code></td>
+            <td>Setting type to "range" creates a slider to select from a range of numbers.</td>
+        </tr>
+        <tr>
+            <td>type="checkbox"</td>
+            <td><code>
+                    &lt;form&gt;<br>
+                    &lt;p&gt;Choose your pizza toppings:&lt;/p&gt;<br>
+                    &lt;label for="cheese"&gt;Extra cheese&lt;/label&gt;<br>
+                    &lt;input id="cheese" name="topping" type="checkbox" value="cheese"&gt;<br>
+                    &lt;br&gt;<br>
+                    &lt;label for="pepperoni"&gt;Pepperoni&lt;/label&gt;<br>
+                    &lt;input id="pepperoni" name="topping" type="checkbox" value="pepperoni"&gt;<br>
+                    &lt;br&gt;<br>
+                    &lt;label for="anchovy"&gt;Anchovy&lt;/label&gt;<br>
+                    &lt;input id="anchovy" name="topping" type="checkbox" value="anchovy"&gt;<br>
+                    &lt;/form&gt;
+                </code></td>
+            <td>Setting type to "checkbox" creates a single checkbox which can be paired with other checkboxes. Multiple
+                choices.
+            </td>
+        </tr>
+        <tr>
+            <td>type="radio"</td>
+            <td><code>
+                    &lt;form&gt;<br>
+                    &lt;p&gt;What is sum of 1 + 1?&lt;/p&gt;<br>
+                    &lt;input type="radio" id="two" name="answer" value="2"&gt;<br>
+                    &lt;label for="two"&gt;2&lt;/label&gt;<br>
+                    &lt;br&gt;<br>
+                    &lt;input type="radio" id="eleven" name="answer" value="11"&gt;<br>
+                    &lt;label for="eleven"&gt;11&lt;/label&gt;<br>
+                    &lt;/form&gt;<br>
+                </code></td>
+            <td>Setting type to "radio" creates a radio button that can be paired with other radio buttons. Just only
+                one choice.</td>
+        </tr>
+    </table>
+</body>
+
+</html>

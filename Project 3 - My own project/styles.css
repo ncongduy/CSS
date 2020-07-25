@@ -1,0 +1,26 @@
+body {
+    font-family: Georgia;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+}
+
+table, tr, td, th {
+    font-size: 20px;
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+table {
+    margin: 0 0 30px 8px;
+}
+
+th {
+    background-color: CornflowerBlue;
+    color: azure;
+}
+
+h1 {
+    text-align: center;
+    color: teal;
+}
+
