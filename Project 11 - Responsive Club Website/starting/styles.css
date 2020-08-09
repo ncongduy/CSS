@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    background-color: lightsalmon;
+}
+
+/* Header & Footer */
+
+nav {
+    background-color: teal;
+    padding: 25px 0 10px 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightsalmon;
+    padding: 0 40px;
+}
+
+/* Main */
+
+/* Section start */
+
+.start {
+    margin: 160px 0;
+}
+
+.start h1 {
+    text-align: center;
+    color: coral;
+    background-color: rgba(128, 81, 62, 1);
+    padding: 30px 0;
+    margin-bottom: 160px;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.start h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: yellow;
+    padding-left: 1rem;
+}
+
+.start p {
+    padding: 0 1rem;
+    color: white;
+}
+
+.images-container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+img {    
+    width: 33%;
+    height: 211px;
+}
+
+/* Section middle */
+
+.middle {
+    background-color: teal;
+    color: yellow;
+    height: auto;
+    margin: 50px 0;
+    padding: 50px 1rem;
+}
+
+.middle h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.middle p {
+    padding-left: 0;
+}
+
+/* Section end */
+
+.end {
+    margin: 4rem 0 2rem 0;
+    text-align: center;
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+.end h2 {
+    font-weight: 500;
+}
+
+.end img {
+    width: 50%;
+    height: auto;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 600px) { 
+    
+    nav a {
+        padding: 0 1rem;
+    }
+
+    .start {
+        margin: 4rem 0 0 0;
+    }
+
+    .start h1 {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+
+    .start p {
+        padding: 0 10px 0 1rem;
+    }
+
+    .images-container {
+        margin: 0 auto;
+        width: 90%;
+        overflow: hidden;
+    }
+    
+    img {    
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .middle h1 {
+        font-size: 2rem;
+    }
+
+    .end h2 {
+        font-size: 2rem;
+        padding: 0 1rem;
+    }
+
+    .end img {
+        width: 90%;
+        position: relative;
+        left: 5%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 950px) {
+
+    .start h1 {
+        font-size: 3rem;
+    }
+
+    .images-container {
+        margin: 0 auto;
+        width: 90%;
+        overflow: hidden;
+    }
+    
+    img {    
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .end h2 {
+        font-size: 2rem;
+        padding: 0 1rem;
+    }
+
+    .end img {
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    nav a {
+        display: block;
+    }
+}
