@@ -1,0 +1,176 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    font-family: 'Lexend Mega', sans-serif;
+    margin: 0;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+/* Header */
+
+header nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+header nav a {
+    padding: 0.5rem;
+    text-decoration: underline;
+    color: black;
+
+}
+
+/* Main */
+
+main {
+    padding-top: 35px;
+}
+
+/* start */
+
+.start {
+    background-image: url("https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+    height: 300px;
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.start-container {
+    background-color: white;
+    margin: auto;
+    width: 100%;
+}
+
+.start-container h2 {
+    padding: 10px;
+    margin: 0;
+}
+
+.start-container p {
+    padding: 10px;
+    margin: 0;
+}
+
+/* middle */
+
+.middle {
+    padding-top: 70px;
+}
+
+.middle p {
+    margin: 0;
+    padding: 10px;
+}
+
+.middle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middle-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-item img {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
+.middle-item p {
+    min-width: 240px;
+    padding: 5px;
+}
+
+/* end */
+
+.end-container {
+    background-image: url("https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.end-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 280px;
+    padding: 10px;
+}
+
+.end-item img {
+    width: 200px;
+    height: auto;
+}
+
+.end-item p {
+    color: white;
+}
+
+p.name {
+    margin: 0;
+    padding: 10px;
+    font-size: 1.17rem;
+
+}
+
+p.position {
+    margin: 0;
+    padding: 10px;
+    font-weight: normal;
+}
+
+/* footer */
+
+footer {
+    padding-top: 20px;
+}
+
+footer h2 {
+    margin-bottom: 1.5rem;
+}
+
+footer p {
+    font-size: 0.83rem;
+}
+
+.number {
+    margin: 1.5rem auto;
+}
+
+.copyright {
+    margin: 3rem 0 1rem 0;
+}
