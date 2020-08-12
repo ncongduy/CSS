@@ -75,11 +75,9 @@ main {
 /* tea */
 
 #tea {
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
     margin-bottom: 2.5em;
-    /* display: flex;
-    flex-wrap: wrap; */
 }
 
 .tea-container {
@@ -104,7 +102,7 @@ main {
     background-image: url("images/img-locations-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 900px;
     width: 95%;
     margin: 0 auto;
     display: flex;
@@ -165,10 +163,6 @@ footer h2 {
 }
 
 @media only screen and (max-width: 660px) {
-    #location {
-        height: 900px;
-    }
-
     #location h2 {
         color: black;
     }
