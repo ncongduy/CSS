@@ -1,0 +1,181 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+header nav a {
+    padding: 0 20px;
+}
+
+a:-webkit-any-link {
+    color: seashell;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* main */
+
+main {
+    position: relative;
+    top: 69px;
+}
+
+/* mission */
+
+#mission {
+    height: 700px;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 2.5em;
+    background-image: url("images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-container {
+    background-color: black;
+    width: 100%;
+}
+
+/* tea */
+
+#tea {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 2.5em;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-container div img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.tea-container div h4 {
+    margin: 10px 0;
+}
+
+/* location */
+
+#location {
+    background-image: url("images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#location h2 {
+    margin: 0;
+}
+
+.location-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location-item {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 15px 20px 20px 20px;
+}
+
+/* footer */
+
+footer {
+    position: relative;
+    top: 69px;
+}
+
+footer div {
+    height: 200px;
+}
+
+footer h2 {
+    margin-bottom: 2.5em;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 480px) {
+    header nav a {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    header nav a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    #location {
+        height: 900px;
+    }
+
+    #location h2 {
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .copyright {
+        text-align: center;
+    }
+}
